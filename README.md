@@ -4,82 +4,82 @@ A modular and fully functional MATLAB-based Signals Generator and Operator devel
 
 This repository contains the implementation of the second part of the project report, which focuses on the design and development of a configurable signal generation and transformation framework.
 
-# Overview
+## Overview
 
 The Signals Generator & Operator is designed to bridge theoretical signal processing concepts with practical implementation. The program allows users to define signal parameters, generate various signal types, apply signal operations, and visualize results in a structured and extensible architecture.
 
-# Key Features
-Signal Generation
+### Key Features
+- Signal Generation
 
-DC (constant) signals
+- DC (constant) signals
 
-Ramp (linear) signals
+- Ramp (linear) signals
 
-Polynomial signals with configurable order and coefficients
+- Polynomial signals with configurable order and coefficients
 
-Exponential signals (growth/decay)
+- Exponential signals (growth/decay)
 
-Sinusoidal signals (sine/cosine with amplitude, phase, frequency, and DC offset)
+- Sinusoidal signals (sine/cosine with amplitude, phase, frequency, and DC offset)
 
-Gaussian pulse generation
+- Gaussian pulse generation
 
-Sawtooth waveform generation
+- Sawtooth waveform generation
 
-Random signal generation for testing and experimentation
+- Random signal generation for testing and experimentation
 
-# Time Configuration
+### Time Configuration
 
-User-defined start and end time
+- User-defined start and end time
 
-Adjustable sampling frequency
+- Adjustable sampling frequency
 
-Automatic validation and error handling
+- Automatic validation and error handling
 
-Sampling quality checks (including Nyquist considerations)
+- Sampling quality checks (including Nyquist considerations)
 
-# Piecewise Signal Construction
+### Piecewise Signal Construction
 
-Combine multiple signal types using configurable breakpoints
+- Combine multiple signal types using configurable breakpoints
 
-Build complex signals from multiple segments
+- Build complex signals from multiple segments
 
-# Signal Operations
+### Signal Operations
 
-Amplitude scaling
+- Amplitude scaling
 
-Time shifting
+- Time shifting
 
-Time reversal
+- Time reversal
 
-Time expansion and compression
+- Time expansion and compression
 
-Noise addition
+- Noise addition
 
-Signal smoothing (moving average)
+- Signal smoothing (moving average)
 
-# Architecture & Design
+### Architecture & Design
 
-Modular function-based implementation
+- Modular function-based implementation
 
-Interactive command-line interface
+- Interactive command-line interface
 
-Built-in visualization and analysis outputs
+- Built-in visualization and analysis outputs
 
-Designed for extensibility and experimentation
+- Designed for extensibility and experimentation
 
-# How to Use
+## How to Use
 
-Download or clone the repository.
+1. Download or clone the repository.
 
-Ensure all files remain inside the project folder (do not move individual files).
+2. Ensure all files remain inside the project folder (do not move individual files).
 
-Open the project folder in MATLAB.
+3. Open the project folder in MATLAB.
 
-Run main.m.
+4. Run main.m.
 
-Follow the interactive prompts to generate and manipulate signals.
+5. Follow the interactive prompts to generate and manipulate signals.
 
-# Notes
+## Notes
 
 This repository implements Part II of the project report (Signal Generator & Operator).
 
